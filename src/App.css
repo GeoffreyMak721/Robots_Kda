@@ -1,5 +1,27 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #00817f 0%, #170055 99.84%);
+}
 main {
-  text-align: center;
-  vertical-align: center;
-  line-height: 100vh
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1000px;
 }
